@@ -125,9 +125,9 @@ async def query_documents(query: Dict[str, str]):
         raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
-    print(f"🚀 Starting {settings.app_name} v{settings.version}")
-    print(f"📍 Server will run on http://{settings.host}:{settings.port}")
-    print("⚠️  Note: This is a simplified backend without AI/ML features")
+    print(f"Starting {settings.app_name} v{settings.version}")
+    print(f"Server will run on http://{settings.host}:{settings.port}")
+    print("Note: This is a simplified backend without AI/ML features")
     
     uvicorn.run(
         "main:app",

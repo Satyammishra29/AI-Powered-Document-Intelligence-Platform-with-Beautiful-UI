@@ -43,11 +43,23 @@ def check_environment():
     
     env_file = Path(".env")
     if not env_file.exists():
-        print("⚠️  .env file not found")
-        print("Please copy env_example.txt to .env and configure your settings")
-        return False
+        print("⚠️  .env file not found - creating default configuration")
+        print("📝 You can customize settings by editing the .env file later")
+        
+        # Create basic .env with defaults
+        try:
+            with open(".env", "w") as f:
+                f.write("# Default environment configuration\n")
+                f.write("OPENAI_API_KEY=your_openai_api_key_here\n")
+                f.write("HOST=0.0.0.0\n")
+                f.write("PORT=8000\n")
+                f.write("DEBUG=true\n")
+            print("✅ Created default .env file")
+        except Exception as e:
+            print(f"⚠️  Could not create .env file: {e}")
+            print("Continuing with default settings...")
     
-    print("✅ Environment configuration looks good!")
+    print("✅ Environment configuration ready!")
     return True
 
 def start_backend():
@@ -60,28 +72,40 @@ def start_backend():
         return None
     
     try:
-        # Start backend server
+        # Change to backend directory
+        os.chdir(backend_dir)
+        
+        # Start backend server with better error handling
+        print(f"📍 Starting backend from: {os.getcwd()}")
+        
         backend_process = subprocess.Popen(
             [sys.executable, "main.py"],
-            cwd=backend_dir,
             stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE
+            stderr=subprocess.PIPE,
+            text=True
         )
         
-        # Wait a bit for server to start
-        time.sleep(3)
+        # Wait for server to start and check for errors
+        time.sleep(5)
         
         if backend_process.poll() is None:
             print("✅ Simplified backend server started successfully on http://localhost:8000")
             print("⚠️  Note: This backend has limited functionality (no AI/ML features)")
             return backend_process
         else:
-            print("❌ Failed to start backend server")
+            # Get error output
+            stdout, stderr = backend_process.communicate()
+            print(f"❌ Backend failed to start")
+            if stderr:
+                print(f"Error details: {stderr}")
             return None
             
     except Exception as e:
         print(f"❌ Error starting backend: {e}")
         return None
+    finally:
+        # Change back to original directory
+        os.chdir("..")
 
 def start_frontend():
     """Start the Streamlit frontend"""

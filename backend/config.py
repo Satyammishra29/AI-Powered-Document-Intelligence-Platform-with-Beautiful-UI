@@ -4,10 +4,14 @@ Configuration settings for the Visual Document Analysis RAG System Backend
 
 import os
 from typing import Optional
-from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
+# Try to load environment variables, but don't fail if .env is missing
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    # dotenv not installed, continue without it
+    pass
 
 class Settings:
     """Application settings loaded from environment variables"""
@@ -60,7 +64,7 @@ class Settings:
     # Server Configuration
     host: str = os.getenv("HOST", "0.0.0.0")
     port: int = int(os.getenv("PORT", "8000"))
-    debug: bool = os.getenv("DEBUG", "false").lower() == "true"
+    debug: bool = os.getenv("DEBUG", "true").lower() == "true"  # Default to true for development
     
     # Logging Configuration
     log_level: str = os.getenv("LOG_LEVEL", "INFO")
