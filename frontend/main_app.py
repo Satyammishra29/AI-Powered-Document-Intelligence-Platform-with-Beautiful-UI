@@ -525,7 +525,7 @@ def main():
                 import importlib.util
                 spec = importlib.util.spec_from_file_location(
                     "upload_page", 
-                    "pages/01_Upload.py"
+                    "frontend/pages/01_Upload.py"
                 )
                 upload_module = importlib.util.module_from_spec(spec)
                 spec.loader.exec_module(upload_module)
@@ -546,7 +546,7 @@ def main():
                 import importlib.util
                 spec = importlib.util.spec_from_file_location(
                     "analysis_page", 
-                    "pages/02_Analysis.py"
+                    "frontend/pages/02_Analysis.py"
                 )
                 analysis_module = importlib.util.module_from_spec(spec)
                 spec.loader.exec_module(analysis_module)
@@ -561,7 +561,7 @@ def main():
                 import importlib.util
                 spec = importlib.util.spec_from_file_location(
                     "query_page", 
-                    "pages/03_Query.py"
+                    "frontend/pages/03_Query.py"
                 )
                 query_module = importlib.util.module_from_spec(spec)
                 spec.loader.exec_module(query_module)
@@ -576,7 +576,7 @@ def main():
                 import importlib.util
                 spec = importlib.util.spec_from_file_location(
                     "settings_page", 
-                    "pages/04_Settings.py"
+                    "frontend/pages/04_Settings.py"
                 )
                 settings_module = importlib.util.module_from_spec(spec)
                 spec.loader.exec_module(settings_module)
