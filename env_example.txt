@@ -1,0 +1,56 @@
+# Visual Document Analysis RAG System - Environment Configuration
+# Copy this file to .env and fill in your actual values
+
+# OpenAI Configuration
+OPENAI_API_KEY=your_openai_api_key_here
+OPENAI_MODEL=gpt-4
+OPENAI_TEMPERATURE=0.7
+OPENAI_MAX_TOKENS=1000
+
+# Vector Database Configuration
+VECTOR_DB_TYPE=chroma
+CHROMA_PERSIST_DIRECTORY=./chroma_db
+
+# Pinecone Configuration (if using Pinecone instead of ChromaDB)
+# PINECONE_API_KEY=your_pinecone_api_key_here
+# PINECONE_ENVIRONMENT=your_pinecone_environment
+# PINECONE_INDEX_NAME=visual-doc-rag
+
+# Embedding Configuration
+EMBEDDING_MODEL=all-MiniLM-L6-v2
+CHUNK_SIZE=1000
+CHUNK_OVERLAP=200
+
+# OCR Configuration
+OCR_ENGINE=paddleocr
+OCR_LANGUAGE=en
+
+# Document Processing Configuration
+MAX_FILE_SIZE=52428800
+TEMP_DIRECTORY=./temp
+
+# Table Extraction Configuration
+TABLE_EXTRACTION_METHOD=pdfplumber
+MIN_TABLE_CONFIDENCE=0.8
+
+# Chart Analysis Configuration
+CHART_DETECTION_ENABLED=true
+CHART_ANALYSIS_METHOD=opencv
+
+# RAG Configuration
+RETRIEVAL_TOP_K=5
+SIMILARITY_THRESHOLD=0.7
+MAX_CONTEXT_LENGTH=4000
+
+# Server Configuration
+HOST=0.0.0.0
+PORT=8000
+DEBUG=false
+
+# Logging Configuration
+LOG_LEVEL=INFO
+LOG_FILE=
+
+# Security Configuration
+CORS_ORIGINS=["*"]
+API_KEY_HEADER=X-API-Key 

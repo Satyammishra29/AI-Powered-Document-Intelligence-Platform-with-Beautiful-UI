@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  documentai-pro:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - STREAMLIT_SERVER_PORT=8501
+      - STREAMLIT_SERVER_HEADLESS=true
+      - STREAMLIT_SERVER_ADDRESS=0.0.0.0
+    volumes:
+      - ./uploads:/app/uploads
+      - ./chroma_db:/app/frontend/chroma_db
+      - ./.streamlit:/app/.streamlit
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Optional: Add backend service for full functionality
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=production
+      - DEBUG=false
+    volumes:
+      - ./uploads:/app/uploads
+      - ./processed_files:/app/processed_files
+    restart: unless-stopped
+    depends_on:
+      - documentai-pro
+
+volumes:
+  uploads:
+  chroma_db:
+  processed_files:

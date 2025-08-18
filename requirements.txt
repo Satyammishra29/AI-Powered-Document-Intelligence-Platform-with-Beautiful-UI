@@ -1,0 +1,34 @@
+# Core Framework - Essential packages only
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+streamlit==1.28.1
+
+# Document Processing - Enhanced packages
+pdfplumber==0.10.3
+python-docx==1.2.0
+openpyxl==3.1.5
+pytesseract==0.3.10
+Pillow==10.1.0
+
+# Vector Database & AI
+chromadb==0.4.18
+sentence-transformers==2.2.2
+huggingface-hub==0.19.4
+transformers==4.35.2
+onnxruntime==1.16.3
+
+# Data Processing - Essential packages
+numpy==1.24.3
+pandas==2.1.3
+matplotlib==3.7.2
+plotly==5.17.0
+
+# Image Processing - Basic packages
+pillow==10.1.0
+
+# Utilities
+python-multipart==0.0.6
+python-dotenv==1.0.0
+aiofiles==23.2.1
+tqdm==4.66.1
+requests==2.31.0 
