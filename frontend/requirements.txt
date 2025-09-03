@@ -33,12 +33,6 @@ aiofiles==23.2.1
 # Environment and configuration
 python-dotenv==1.0.0
 
-# Development and testing
-pytest==7.4.3
-black==23.11.0
-flake8==6.1.0
-
 # Additional utilities
 tqdm==4.66.1
 rich==13.7.0
-typer==0.9.0

@@ -180,42 +180,42 @@ def render_home_page():
     <div class="hero-section-enhanced">
         <div class="hero-content">
             <div class="hero-badge">🚀 Enterprise AI Platform</div>
-            <h1 class="hero-title-enhanced" style="color: var(--text-primary); text-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.2); font-weight: 800; font-size: 3.5rem; letter-spacing: -0.02em; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.4));">Transform Documents into Actionable Intelligence</h1>
-            <p class="hero-subtitle-enhanced" style="color: var(--text-secondary); font-weight: 600; line-height: 1.7; font-size: 1.3rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2); filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));">
+            <h1 class="hero-title-enhanced" style="color: #1e293b; text-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.2); font-weight: 800; font-size: 3.5rem; letter-spacing: -0.02em; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.4));">Transform Documents into Actionable Intelligence</h1>
+            <p class="hero-subtitle-enhanced" style="color: #475569; font-weight: 600; line-height: 1.7; font-size: 1.3rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2); filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));">
                 Leverage cutting-edge AI technology to extract insights, discover patterns, and unlock the hidden value 
                 in your document collection. Built for enterprise-scale operations with bank-level security.
             </p>
             <div class="hero-stats">
                 <div class="stat-item">
                     <span class="stat-number" style="color: var(--primary-500); font-weight: 800; font-size: 2.5rem; text-shadow: 0 2px 8px rgba(59, 130, 246, 0.4); filter: drop-shadow(0 4px 12px rgba(59, 130, 246, 0.3));">99.9%</span>
-                    <span class="stat-label" style="color: var(--text-primary); font-weight: 700; font-size: 1.1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Accuracy Rate</span>
+                    <span class="stat-label" style="color: #1e293b; font-weight: 700; font-size: 1.1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Accuracy Rate</span>
                 </div>
                 <div class="stat-item">
                     <span class="stat-number" style="color: var(--secondary-500); font-weight: 800; font-size: 2.5rem; text-shadow: 0 2px 8px rgba(139, 92, 246, 0.4); filter: drop-shadow(0 4px 12px rgba(139, 92, 246, 0.3));">50+</span>
-                    <span class="stat-label" style="color: var(--text-primary); font-weight: 700; font-size: 1.1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">File Formats</span>
+                    <span class="stat-label" style="color: #1e293b; font-weight: 700; font-size: 1.1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">File Formats</span>
                 </div>
                 <div class="stat-item">
                     <span class="stat-number" style="color: var(--success-500); font-weight: 800; font-size: 2.5rem; text-shadow: 0 2px 8px rgba(16, 185, 129, 0.4); filter: drop-shadow(0 4px 12px rgba(16, 185, 129, 0.3));">24/7</span>
-                    <span class="stat-label" style="color: var(--text-primary); font-weight: 700; font-size: 1.1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Availability</span>
+                    <span class="stat-label" style="color: #1e293b; font-weight: 700; font-size: 1.1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Availability</span>
                 </div>
                 <div class="stat-item">
                     <span class="stat-number" style="color: var(--warning-500); font-weight: 800; font-size: 2.5rem; text-shadow: 0 2px 8px rgba(245, 158, 11, 0.4); filter: drop-shadow(0 4px 12px rgba(245, 158, 11, 0.3));">1M+</span>
-                    <span class="stat-label" style="color: var(--text-primary); font-weight: 700; font-size: 1.1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Documents Processed</span>
+                    <span class="stat-label" style="color: #1e293b; font-weight: 700; font-size: 1.1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Documents Processed</span>
                 </div>
             </div>
         </div>
         <div class="hero-visual">
             <div class="floating-card card-1">
                 <div class="card-icon">📊</div>
-                <div class="card-text" style="color: var(--text-primary); font-weight: 600;">Smart Analytics</div>
+                <div class="card-text" style="color: #1e293b; font-weight: 600;">Smart Analytics</div>
             </div>
             <div class="floating-card card-2">
                 <div class="card-icon">🔍</div>
-                <div class="card-text" style="color: var(--text-primary); font-weight: 600;">AI Search</div>
+                <div class="card-text" style="color: #1e293b; font-weight: 600;">AI Search</div>
             </div>
             <div class="floating-card card-3">
                 <div class="card-icon">⚡</div>
-                <div class="card-text" style="color: var(--text-primary); font-weight: 600;">Fast Processing</div>
+                <div class="card-text" style="color: #1e293b; font-weight: 600;">Fast Processing</div>
             </div>
         </div>
     </div>
@@ -224,8 +224,8 @@ def render_home_page():
     # Quick Actions Section
     st.markdown("""
     <div class="quick-actions-section">
-        <h2 class="section-title" style="color: var(--text-primary); font-weight: 800; font-size: 2.2rem; text-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.2); filter: drop-shadow(0 4px 8px rgba(0,0,0,0.4)); letter-spacing: -0.01em;">🚀 Quick Start</h2>
-        <p class="section-subtitle" style="color: var(--text-primary); font-weight: 600; line-height: 1.6; font-size: 1.2rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2); filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));">Choose your path to get started with enterprise document intelligence</p>
+        <h2 class="section-title" style="color: #1e293b; font-weight: 800; font-size: 2.2rem; text-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.2); filter: drop-shadow(0 4px 8px rgba(0,0,0,0.4)); letter-spacing: -0.01em;">🚀 Quick Start</h2>
+        <p class="section-subtitle" style="color: #475569; font-weight: 600; line-height: 1.6; font-size: 1.2rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2); filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));">Choose your path to get started with enterprise document intelligence</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -237,9 +237,9 @@ def render_home_page():
         <div class="action-card upload-card">
             <div class="card-header">
                 <div class="card-icon-large">📤</div>
-                <h3 style="color: var(--text-primary); font-weight: 800; font-size: 1.5rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">Upload Documents</h3>
+                <h3 style="color: #1e293b; font-weight: 800; font-size: 1.5rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">Upload Documents</h3>
             </div>
-            <p style="color: var(--text-primary); line-height: 1.7; font-weight: 600; font-size: 1.1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Start by uploading your documents. We support PDFs, images, scanned documents, and more with intelligent format detection.</p>
+            <p style="color: #475569; line-height: 1.7; font-weight: 600; font-size: 1.1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Start by uploading your documents. We support PDFs, images, scanned documents, and more with intelligent format detection.</p>
             <div class="card-features">
                 <span class="feature-tag" style="color: white; background: var(--primary-500); font-weight: 700; font-size: 0.9rem; padding: 0.5rem 1rem; border-radius: 20px; text-shadow: 0 1px 2px rgba(0,0,0,0.3); box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);">Multi-format</span>
                 <span class="feature-tag" style="color: white; background: var(--secondary-500); font-weight: 700; font-size: 0.9rem; padding: 0.5rem 1rem; border-radius: 20px; text-shadow: 0 1px 2px rgba(0,0,0,0.3); box-shadow: 0 2px 8px rgba(139, 92, 246, 0.3);">Drag & Drop</span>
@@ -257,9 +257,9 @@ def render_home_page():
         <div class="action-card query-card">
             <div class="card-header">
                 <div class="card-icon-large">🔍</div>
-                <h3 style="color: var(--text-primary); font-weight: 800; font-size: 1.5rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">Ask Questions</h3>
+                <h3 style="color: #1e293b; font-weight: 800; font-size: 1.5rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">Ask Questions</h3>
             </div>
-            <p style="color: var(--text-primary); line-height: 1.7; font-weight: 600; font-size: 1.1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Query your documents using natural language. Get instant answers with source citations and confidence scores.</p>
+            <p style="color: #475569; line-height: 1.7; font-weight: 600; font-size: 1.1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Query your documents using natural language. Get instant answers with source citations and confidence scores.</p>
             <div class="card-features">
                 <span class="feature-tag" style="color: white; background: var(--primary-500); font-weight: 700; font-size: 0.9rem; padding: 0.5rem 1rem; border-radius: 20px; text-shadow: 0 1px 2px rgba(0,0,0,0.3); box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);">AI Chat</span>
                 <span class="feature-tag" style="color: white; background: var(--secondary-500); font-weight: 700; font-size: 0.9rem; padding: 0.5rem 1rem; border-radius: 20px; text-shadow: 0 1px 2px rgba(0,0,0,0.3); box-shadow: 0 2px 8px rgba(139, 92, 246, 0.3);">Smart Search</span>
@@ -277,9 +277,9 @@ def render_home_page():
         <div class="action-card analysis-card">
             <div class="card-header">
                 <div class="card-icon-large">📊</div>
-                <h3 style="color: var(--text-primary); font-weight: 800; font-size: 1.5rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">View Analytics</h3>
+                <h3 style="color: #1e293b; font-weight: 800; font-size: 1.5rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">View Analytics</h3>
             </div>
-            <p style="color: var(--text-primary); line-height: 1.7; font-weight: 600; font-size: 1.1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Explore comprehensive analytics and insights from your document collection with interactive visualizations.</p>
+            <p style="color: #475569; line-height: 1.7; font-weight: 600; font-size: 1.1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Explore comprehensive analytics and insights from your document collection with interactive visualizations.</p>
             <div class="card-features">
                 <span class="feature-tag" style="color: white; background: var(--primary-500); font-weight: 700; font-size: 0.9rem; padding: 0.5rem 1rem; border-radius: 20px; text-shadow: 0 1px 2px rgba(0,0,0,0.3); box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);">Visualizations</span>
                 <span class="feature-tag" style="color: white; background: var(--secondary-500); font-weight: 700; font-size: 0.9rem; padding: 0.5rem 1rem; border-radius: 20px; text-shadow: 0 1px 2px rgba(0,0,0,0.3); box-shadow: 0 2px 8px rgba(139, 92, 246, 0.3);">Trends</span>
@@ -295,8 +295,8 @@ def render_home_page():
     # Features Section
     st.markdown("""
     <div class="features-section">
-        <h2 class="section-title" style="color: var(--text-primary); font-weight: 800; font-size: 2.2rem; text-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.2); filter: drop-shadow(0 4px 8px rgba(0,0,0,0.4)); letter-spacing: -0.01em;">✨ Advanced Features</h2>
-        <p class="section-subtitle" style="color: var(--text-primary); font-weight: 600; line-height: 1.6; font-size: 1.2rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2); filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));">Discover the power of our AI-driven document analysis platform</p>
+        <h2 class="section-title" style="color: #1e293b; font-weight: 800; font-size: 2.2rem; text-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.2); filter: drop-shadow(0 4px 8px rgba(0,0,0,0.4)); letter-spacing: -0.01em;">✨ Advanced Features</h2>
+        <p class="section-subtitle" style="color: #475569; font-weight: 600; line-height: 1.6; font-size: 1.2rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2); filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));">Discover the power of our AI-driven document analysis platform</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -308,24 +308,24 @@ def render_home_page():
         <div class="feature-card">
             <div class="feature-icon">📄</div>
             <div class="feature-content">
-                <h4 style="color: var(--text-primary); font-weight: 800; font-size: 1.3rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">Multi-Format Support</h4>
-                <p style="color: var(--text-primary); line-height: 1.7; font-weight: 600; font-size: 1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Handle PDFs, images, scanned documents, Word files, and more with intelligent format detection and processing.</p>
+                <h4 style="color: #1e293b; font-weight: 800; font-size: 1.3rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">Multi-Format Support</h4>
+                <p style="color: #475569; line-height: 1.7; font-weight: 600; font-size: 1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Handle PDFs, images, scanned documents, Word files, and more with intelligent format detection and processing.</p>
             </div>
         </div>
         
         <div class="feature-card">
             <div class="feature-icon">🤖</div>
             <div class="feature-content">
-                <h4 style="color: var(--text-primary); font-weight: 800; font-size: 1.3rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">AI-Powered OCR</h4>
-                <p style="color: var(--text-primary); line-height: 1.7; font-weight: 600; font-size: 1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">High-accuracy text extraction from any source using state-of-the-art optical character recognition technology.</p>
+                <h4 style="color: #1e293b; font-weight: 800; font-size: 1.3rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">AI-Powered OCR</h4>
+                <p style="color: #475569; line-height: 1.7; font-weight: 600; font-size: 1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">High-accuracy text extraction from any source using state-of-the-art optical character recognition technology.</p>
             </div>
         </div>
         
         <div class="feature-card">
             <div class="feature-icon">🔒</div>
             <div class="feature-content">
-                <h4 style="color: var(--text-primary); font-weight: 800; font-size: 1.3rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">Enterprise Security</h4>
-                <p style="color: var(--text-primary); line-height: 1.7; font-weight: 600; font-size: 1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Bank-level security with encrypted storage, secure API endpoints, and compliance with industry standards.</p>
+                <h4 style="color: #1e293b; font-weight: 800; font-size: 1.3rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">Enterprise Security</h4>
+                <p style="color: #475569; line-height: 1.7; font-weight: 600; font-size: 1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Bank-level security with encrypted storage, secure API endpoints, and compliance with industry standards.</p>
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -335,24 +335,24 @@ def render_home_page():
         <div class="feature-card">
             <div class="feature-icon">📊</div>
             <div class="feature-content">
-                <h4 style="color: var(--text-primary); font-weight: 800; font-size: 1.3rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">Smart Extraction</h4>
-                <p style="color: var(--text-primary); line-height: 1.7; font-weight: 600; font-size: 1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Automatically detect and extract tables, charts, and structured data from complex documents with high precision.</p>
+                <h4 style="color: #1e293b; font-weight: 800; font-size: 1.3rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">Smart Extraction</h4>
+                <p style="color: #475569; line-height: 1.7; font-weight: 600; font-size: 1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Automatically detect and extract tables, charts, and structured data from complex documents with high precision.</p>
             </div>
         </div>
         
         <div class="feature-card">
             <div class="feature-icon">🔍</div>
             <div class="feature-content">
-                <h4 style="color: var(--text-primary); font-weight: 800; font-size: 1.3rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">Intelligent Queries</h4>
-                <p style="color: var(--text-primary); line-height: 1.7; font-weight: 600; font-size: 1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Ask natural language questions and get instant answers with source citations and confidence scores.</p>
+                <h4 style="color: #1e293b; font-weight: 800; font-size: 1.3rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">Intelligent Queries</h4>
+                <p style="color: #475569; line-height: 1.7; font-weight: 600; font-size: 1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Ask natural language questions and get instant answers with source citations and confidence scores.</p>
             </div>
         </div>
         
         <div class="feature-card">
             <div class="feature-icon">📈</div>
             <div class="feature-content">
-                <h4 style="color: var(--text-primary); font-weight: 800; font-size: 1.3rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">Advanced Analytics</h4>
-                <p style="color: var(--text-primary); line-height: 1.7; font-weight: 600; font-size: 1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Comprehensive insights, trend analysis, and customizable reports for data-driven decision making.</p>
+                <h4 style="color: #1e293b; font-weight: 800; font-size: 1.3rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">Advanced Analytics</h4>
+                <p style="color: #475569; line-height: 1.7; font-weight: 600; font-size: 1rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Comprehensive insights, trend analysis, and customizable reports for data-driven decision making.</p>
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -360,8 +360,8 @@ def render_home_page():
     # Technology Stack Section
     st.markdown("""
     <div class="tech-stack-section">
-        <h2 class="section-title" style="color: var(--text-primary); font-weight: 800; font-size: 2.2rem; text-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.2); filter: drop-shadow(0 4px 8px rgba(0,0,0,0.4)); letter-spacing: -0.01em;">🛠️ Built with Modern Technology</h2>
-        <p class="section-subtitle" style="color: var(--text-primary); font-weight: 600; line-height: 1.6; font-size: 1.2rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2); filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));">Powered by cutting-edge AI and machine learning technologies</p>
+        <h2 class="section-title" style="color: #1e293b; font-weight: 800; font-size: 2.2rem; text-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.2); filter: drop-shadow(0 4px 8px rgba(0,0,0,0.4)); letter-spacing: -0.01em;">🛠️ Built with Modern Technology</h2>
+        <p class="section-subtitle" style="color: #475569; font-weight: 600; line-height: 1.6; font-size: 1.2rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2); filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));">Powered by cutting-edge AI and machine learning technologies</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -372,8 +372,8 @@ def render_home_page():
         st.markdown("""
         <div class="tech-item">
             <div class="tech-icon">🤖</div>
-            <h5 style="color: var(--text-primary); font-weight: 800; font-size: 1.2rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">OpenAI GPT</h5>
-            <p style="color: var(--text-primary); line-height: 1.7; font-weight: 600; font-size: 0.95rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Advanced language models for intelligent document understanding and natural language processing</p>
+            <h5 style="color: #1e293b; font-weight: 800; font-size: 1.2rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">OpenAI GPT</h5>
+            <p style="color: #475569; line-height: 1.7; font-weight: 600; font-size: 0.95rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Advanced language models for intelligent document understanding and natural language processing</p>
         </div>
         """, unsafe_allow_html=True)
     
@@ -381,8 +381,8 @@ def render_home_page():
         st.markdown("""
         <div class="tech-item">
             <div class="tech-icon">🔍</div>
-            <h5 style="color: var(--text-primary); font-weight: 800; font-size: 1.2rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">ChromaDB</h5>
-            <p style="color: var(--text-primary); line-height: 1.7; font-weight: 600; font-size: 0.95rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Vector database for semantic search and similarity matching with high performance</p>
+            <h5 style="color: #1e293b; font-weight: 800; font-size: 1.2rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">ChromaDB</h5>
+            <p style="color: #475569; line-height: 1.7; font-weight: 600; font-size: 0.95rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Vector database for semantic search and similarity matching with high performance</p>
         </div>
         """, unsafe_allow_html=True)
     
@@ -390,8 +390,8 @@ def render_home_page():
         st.markdown("""
         <div class="tech-item">
             <div class="tech-icon">📊</div>
-            <h5 style="color: var(--text-primary); font-weight: 800; font-size: 1.2rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">PaddleOCR</h5>
-            <p style="color: var(--text-primary); line-height: 1.7; font-weight: 600; font-size: 0.95rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">High-performance OCR for text extraction from images and scanned documents</p>
+            <h5 style="color: #1e293b; font-weight: 800; font-size: 1.2rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">PaddleOCR</h5>
+            <p style="color: #475569; line-height: 1.7; font-weight: 600; font-size: 0.95rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">High-performance OCR for text extraction from images and scanned documents</p>
         </div>
         """, unsafe_allow_html=True)
     
@@ -399,16 +399,16 @@ def render_home_page():
         st.markdown("""
         <div class="tech-item">
             <div class="tech-icon">⚡</div>
-            <h5 style="color: var(--text-primary); font-weight: 800; font-size: 1.2rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">FastAPI</h5>
-            <p style="color: var(--text-primary); line-height: 1.7; font-weight: 600; font-size: 0.95rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">High-performance backend API for real-time processing and scalable architecture</p>
+            <h5 style="color: #1e293b; font-weight: 800; font-size: 1.2rem; text-shadow: 0 2px 6px rgba(0,0,0,0.3); filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));">FastAPI</h5>
+            <p style="color: #475569; line-height: 1.7; font-weight: 600; font-size: 0.95rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">High-performance backend API for real-time processing and scalable architecture</p>
         </div>
         """, unsafe_allow_html=True)
     
     # Call to Action Section
     st.markdown("""
     <div class="cta-section">
-        <h2 class="cta-title" style="color: var(--text-primary); font-weight: 800; font-size: 2.2rem; text-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.2); filter: drop-shadow(0 4px 8px rgba(0,0,0,0.4)); letter-spacing: -0.01em;">Ready to Transform Your Documents?</h2>
-        <p class="cta-subtitle" style="color: var(--text-primary); font-weight: 600; line-height: 1.6; font-size: 1.2rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2); filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));">Join thousands of enterprise users who are already leveraging AI-powered document intelligence</p>
+        <h2 class="cta-title" style="color: #1e293b; font-weight: 800; font-size: 2.2rem; text-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.2); filter: drop-shadow(0 4px 8px rgba(0,0,0,0.4)); letter-spacing: -0.01em;">Ready to Transform Your Documents?</h2>
+        <p class="cta-subtitle" style="color: #475569; font-weight: 600; line-height: 1.6; font-size: 1.2rem; text-shadow: 0 1px 3px rgba(0,0,0,0.2); filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));">Join thousands of enterprise users who are already leveraging AI-powered document intelligence</p>
         <div class="cta-buttons">
             <button class="cta-primary" onclick="window.parent.postMessage({type: 'streamlit:setComponentValue', key: 'cta_get_started', value: true}, '*')">🚀 Get Started Now</button>
             <button class="cta-secondary" onclick="window.parent.postMessage({type: 'streamlit:setComponentValue', key: 'cta_docs', value: true}, '*')">📚 View Documentation</button>
@@ -525,7 +525,7 @@ def main():
                 import importlib.util
                 spec = importlib.util.spec_from_file_location(
                     "upload_page", 
-                    "frontend/pages/01_Upload.py"
+                    "pages/01_Upload.py"
                 )
                 upload_module = importlib.util.module_from_spec(spec)
                 spec.loader.exec_module(upload_module)
@@ -546,7 +546,7 @@ def main():
                 import importlib.util
                 spec = importlib.util.spec_from_file_location(
                     "analysis_page", 
-                    "frontend/pages/02_Analysis.py"
+                    "pages/02_Analysis.py"
                 )
                 analysis_module = importlib.util.module_from_spec(spec)
                 spec.loader.exec_module(analysis_module)
@@ -561,7 +561,7 @@ def main():
                 import importlib.util
                 spec = importlib.util.spec_from_file_location(
                     "query_page", 
-                    "frontend/pages/03_Query.py"
+                    "pages/03_Query.py"
                 )
                 query_module = importlib.util.module_from_spec(spec)
                 spec.loader.exec_module(query_module)
@@ -576,7 +576,7 @@ def main():
                 import importlib.util
                 spec = importlib.util.spec_from_file_location(
                     "settings_page", 
-                    "frontend/pages/04_Settings.py"
+                    "pages/04_Settings.py"
                 )
                 settings_module = importlib.util.module_from_spec(spec)
                 spec.loader.exec_module(settings_module)

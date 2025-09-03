@@ -1,8 +1,10 @@
-# Python
+# Python cache files
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
+
+# Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -19,7 +21,6 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
 # PyInstaller
 *.manifest
@@ -50,14 +51,14 @@ ENV/
 env.bak/
 venv.bak/
 
-# IDE
+# IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# OS
+# OS files
 .DS_Store
 .DS_Store?
 ._*
@@ -66,28 +67,40 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 
-# Logs
-*.log
-logs/
+# Git
+.git/
+.gitignore
 
-# Database
-*.db
-*.sqlite3
-chroma_db/
+# Documentation
+*.md
+docs/
 
-# Environment variables
-.env
+# Test files
+test_*.py
+*_test.py
+tests/
+
+# Development files
 .env.local
 .env.development
 .env.test
 .env.production
+
+# Logs
+*.log
+logs/
 
 # Temporary files
 tmp/
 temp/
 .tmp/
 
-# Large files
+# ChromaDB local storage (will be recreated)
+chroma_db/
+*.db
+*.sqlite3
+
+# Large files that shouldn't be deployed
 *.zip
 *.tar.gz
 *.rar
@@ -98,6 +111,3 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Vercel
-.vercel

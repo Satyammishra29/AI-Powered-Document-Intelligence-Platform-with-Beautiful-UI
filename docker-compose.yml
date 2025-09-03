@@ -40,3 +40,4 @@ volumes:
   uploads:
   chroma_db:
   processed_files:
+
